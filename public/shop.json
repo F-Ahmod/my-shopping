@@ -1,0 +1,92 @@
+[
+    {
+        "key": "B002RL8IYK",
+        "name": "Buttons tweed blazer",
+        "seller": "87U",
+        "priceFraction": "36",
+        "stock": 36,
+        "starCount": 3245,
+        "img": "https://i.ibb.co/VxL0wQj/product-8.webp",
+        "price": 70,
+        "shipping": 7.99
+    },
+    {
+        "key": "B002RL8IYK",
+        "name": "Flowy striped skirt",
+        "seller": "54E",
+        "priceFraction": "36",
+        "stock": 36,
+        "starCount": 3245,
+        "img": "https://i.ibb.co/6ZZ4Hvj/product-7.webp",
+        "price": 35,
+        "shipping": 7.99
+    },
+    {
+        "key": "B002RL8IYK",
+        "name": "Cotton T-Shirt",
+        "seller": "JK3",
+        "priceFraction": "36",
+        "stock": 336,
+        "starCount": 245,
+        "img": "https://i.ibb.co/FD5znjP/product-6.webp",
+        "price": 122,
+        "shipping": 7.99
+    },
+    {
+        "key": "B002RL8IYK",
+        "name": "Fit micro corduroy",
+        "seller": "32W",
+        "priceFraction": "36",
+        "stock": 36,
+        "starCount": 3245,
+        "img": "https://i.ibb.co/8rmnt1P/product-5.webp",
+        "price": 83,
+        "shipping": 7.99
+    },
+    {
+        "key": "B002RL8IYK",
+        "name": "Slim striped ",
+        "seller": "R3M",
+        "priceFraction": "36",
+        "stock": 36,
+        "starCount": 3245,
+        "img": "https://i.ibb.co/NWNwnXP/product-4.webp",
+        "price": 36,
+        "shipping": 7.99
+    },
+    {
+        "key": "B002RL8IYK",
+        "name": "Cotton T-Shirt",
+        "seller": "54M",
+        "priceFraction": "36",
+        "stock": 36,
+        "starCount": 4245,
+        "img": "https://i.ibb.co/ScXmWVZ/product-3.webp",
+        "price": 85,
+        "shipping": 7.99
+    },
+    {
+        "key": "B002RL8IYK",
+        "category": "laptop",
+        "name": "Tropical Kimono",
+        "seller": "LKI",
+        "priceFraction": "36",
+        "stock": 36,
+        "starCount": 3245,
+        "img": "https://i.ibb.co/GkykwfN/product-2.webp",
+        "price": 42,
+        "shipping": 7.99
+    },
+    {
+        "key": "B002RL8IYK",
+        "name": "Contrasting sungla",
+        "seller": "3M",
+        "priceFraction": "36",
+        "stock": 36,
+        "starCount": 3245,
+        "img": "https://i.ibb.co/wKgtkcQ/product-1.webp",
+        "price": 61,
+        "shipping": 7.99
+    }
+
+]

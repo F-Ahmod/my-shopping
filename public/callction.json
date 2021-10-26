@@ -1,0 +1,66 @@
+[
+
+    {
+        "title": " Bucket bag",
+        "catagory": "women",
+        "img": "https://i.ibb.co/VW94zHs/xht-3-jpg-pagespeed-ic-fw-Ls-IXAi-Z.webp",
+        "rate": "5.0",
+        "price": "59.0"
+    },
+    {
+        "title": "Jins Pant",
+        "catagory": "men",
+        "img": "https://i.ibb.co/jZ8945Z/xbs-1-jpg-pagespeed-ic-m-J3-HA8np2n.webp",
+        "rate": "4.6",
+        "price": "50.0"
+    },
+    {
+        "title": "Wrap skirt",
+        "catagory": "women",
+        "img": "https://i.ibb.co/7nfy5hm/xht-2-jpg-pagespeed-ic-3-Yju-D2-AOub.webp",
+        "rate": "3.5",
+        "price": "45.0"
+    },
+    {
+        "title": "Pendant earr",
+        "catagory": "women",
+        "img": "https://i.ibb.co/HtqvXGC/xf-3-jpg-pagespeed-ic-lark-Qp-Ufvs.webp",
+        "rate": "5.0",
+        "price": "69.0"
+    },
+    {
+        "title": "Zip-pockets ",
+        "catagory": "women",
+        "img": "https://i.ibb.co/Wpwdxwb/xf-2-jpg-pagespeed-ic-LE7-FQXfxe-P.webp",
+        "rate": "4.0",
+        "price": "50.0"
+    },
+    {
+        "title": "Metallic ear",
+        "catagory": "women",
+        "img": "https://i.ibb.co/fMQpGTV/xf-1-jpg-pagespeed-ic-Q7t675-Gcer.webp",
+        "rate": "4.8",
+        "price": "90.0"
+    },
+    {
+        "title": "pure product",
+        "catagory": "men",
+        "img": "https://i.ibb.co/ryhzs9N/xbs-3-jpg-pagespeed-ic-Ub-Er-REAs1.webp",
+        "rate": "5.0",
+        "price": "80.0"
+    },
+    {
+        "title": "leather bag",
+        "catagory": "women",
+        "img": "https://i.ibb.co/yhRmWcv/xbs-3-jpg-pagespeed-ic-Ub-Er-REAs1.webp",
+        "rate": "4.0",
+        "price": "75.0"
+    },
+    {
+        "title": "Flip bag",
+        "catagory": "women",
+        "img": "https://i.ibb.co/bK8mhYX/xbs-2-jpg-pagespeed-ic-o-PC5e-RYONC.webp",
+        "rate": "4.0",
+        "price": "75.0"
+    }
+]
