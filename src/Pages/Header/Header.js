@@ -1,7 +1,15 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+
+  const [totalproduct,setTotallproduct]=useState({})
+  useEffect(()=>{
+    fetch(`http://localhost:5000/addTocard`)
+    .then(res=>res.json())
+    .then(data =>setTotallproduct(data))
+},[totalproduct])
+
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -12,6 +20,7 @@ const Header = () => {
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <h5>{totalproduct.length}</h5>
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/home">Home</Link>
         </li>

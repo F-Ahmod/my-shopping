@@ -1,17 +1,28 @@
 import React from 'react';
-import './NewProducts.css'
-import { Link } from 'react-router-dom';
+import './NewProducts.css';
+import { useHistory } from 'react-router';
 
-const NewProducts = (props) => {
-    const {img,name,price}=props.pd
+
+const NewProducts = ({pd}) => {
+    const history=useHistory()
+    const {img,name,price}=pd
+
+    const handelSingleProduct=id=>{
+        history.push(`/singleProduct/${id}`)
+        // console.log(id);
+    }
+   
     return (
-        <div >
+        <div className="singleProduct">
             <div className="card  " >
-  <img src={img} class=""  alt="..."/>
-  <div class="card-body">
-    <h5 class="card-title">{name}</h5>
-    <p class="card-text">{price}</p>
-    <Link to="/" class="btn btn-primary">Go somewhere</Link>
+  <img src={img} className=""  alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">{name}</h5>
+    <p className="card-text fw-bold">Price : $ {price}</p>
+   <button className="btnLink">
+       <button onClick={()=>handelSingleProduct(pd._id)}>Book Now</button>
+   
+   </button>
   </div>
 </div>
         </div>

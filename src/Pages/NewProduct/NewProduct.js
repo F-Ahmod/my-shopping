@@ -4,8 +4,10 @@ import NewProducts from './NewProducts/NewProducts';
 
 const NewProduct = () => {
     const [product,setProduct]=useState([]);
+    
     useEffect(()=>{
-        fetch('/shop.json')
+        
+        fetch('http://localhost:5000/shop')
         .then(res=> res.json())
         .then(data =>setProduct(data))
 
@@ -13,11 +15,11 @@ const NewProduct = () => {
     },[])
     return (
         <div >
-            <h1>{product.length}</h1>
+            <h1 className="mt-5 mb-5">Our Exclucive callection's</h1>
 
            <div className="container product">
            {
-                product.map(pd=> <NewProducts
+                product?.map(pd=> <NewProducts
                 pd={pd}
                 >
 

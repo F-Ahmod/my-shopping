@@ -1,8 +1,9 @@
 import React from 'react';
+import  './Medile.css'
 
 const Medile = () => {
     return (
-        <div className="mt-3">
+        <div className="mt-3 medilebg">
             <h2>Why Shopping with Us</h2>
 
 <div className="row mt-5">

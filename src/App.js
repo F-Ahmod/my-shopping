@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Pages/Home/Home';
 import Footer from './Pages/Footer/Footer';
 import Header from './Pages/Header/Header';
+import SingleProduct from './Pages/SingleProduct.js/SingleProduct';
 
 
 function App() {
@@ -12,14 +13,15 @@ function App() {
       <BrowserRouter>
       <Header></Header>
       <Switch>
-        <Route path="/">
-          
+        <Route exact path="/"> 
           <Home></Home>
-         
-
         </Route>
-        
-
+        <Route path="/home"> 
+          <Home></Home>
+        </Route>
+        <Route path="/singleProduct/:id">
+          <SingleProduct></SingleProduct>
+        </Route>
       </Switch>
       <Footer></Footer>
       </BrowserRouter>

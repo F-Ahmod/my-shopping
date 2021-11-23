@@ -6,3 +6,17 @@
    
    
 }
+.btnLink{
+    border: none;
+    border-radius: 7px;
+}
+.btLink{
+    text-decoration: none;
+
+}
+
+.singleProduct:hover{
+    box-shadow: 0 .2rem 1rem rgb(190, 189, 189);
+    border-radius: 10px;
+    transition: 0.2s;
+    }

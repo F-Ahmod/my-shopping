@@ -5,7 +5,7 @@ import Callctions from './../Callctions/Callctions';
 const Callction = () => {
     const [callction,setCallction]=useState([])
     useEffect(()=>{
-        fetch('/Callction.json')
+        fetch('http://localhost:5000/callction')
         .then(res=>res.json())
         .then(data=>setCallction(data))
 
