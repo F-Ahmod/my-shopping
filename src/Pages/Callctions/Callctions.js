@@ -12,7 +12,6 @@ const Callctions = (props) => {
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">{title}</h5>
-        {/* <p class="card-text">{catagory}</p> */}
         <p class="card-text fw-bold">$ {price}</p>
       </div>
     </div>

@@ -9,7 +9,7 @@ const NewProducts = ({pd}) => {
 
     const handelSingleProduct=id=>{
         history.push(`/singleProduct/${id}`)
-        // console.log(id);
+       
     }
    
     return (

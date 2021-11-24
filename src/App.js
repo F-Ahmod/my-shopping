@@ -3,7 +3,10 @@ import './App.css';
 import Home from './Pages/Home/Home';
 import Footer from './Pages/Footer/Footer';
 import Header from './Pages/Header/Header';
-import SingleProduct from './Pages/SingleProduct.js/SingleProduct';
+import SingleProduct from './Pages/SingleProduct/SingleProduct';
+import Tshart from './Pages/Tshart/Tshart';
+import TshartSingle from './Pages/TshartSingle/TshartSingle';
+
 
 
 function App() {
@@ -18,6 +21,12 @@ function App() {
         </Route>
         <Route path="/home"> 
           <Home></Home>
+        </Route>
+        <Route path="/tshart"> 
+          <Tshart></Tshart>
+        </Route>
+        <Route path="/singleTshart/:id"> 
+          <TshartSingle></TshartSingle>
         </Route>
         <Route path="/singleProduct/:id">
           <SingleProduct></SingleProduct>

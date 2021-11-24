@@ -26,7 +26,7 @@ const SingleProduct = () => {
 
     return (
         <div>
-            <h2>jjjjjjjjjjjjjjjj</h2>
+            <h2>Product Details</h2>
            <Card className="singleCard  mx-auto mt-5 mb-5 shadow" style={{ width: '19rem' }}>
                <Card.Img variant="top" src={singleProduct.img} width="300" />
                  <Card.Body>
