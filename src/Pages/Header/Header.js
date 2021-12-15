@@ -20,7 +20,7 @@ const Header = () => {
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <h5>{totalproduct.length}</h5>
+        {/* <h5>{totalproduct.length}</h5> */}
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/home">Home</Link>
         </li>
@@ -29,7 +29,7 @@ const Header = () => {
         </li>
         <li className="nav-item dropdown">
           <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            More item
           </Link>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><Link className="dropdown-item" to="/">Action</Link></li>
@@ -40,6 +40,9 @@ const Header = () => {
         </li>
         
       </ul>
+     <div> <h5><i class="fas fa-luggage-cart"></i>{totalproduct.length}</h5> </div>
+   
+
       <form className="d-flex">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button className="btn btn-outline-success" type="submit">Search</button>
