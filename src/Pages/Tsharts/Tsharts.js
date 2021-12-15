@@ -13,7 +13,7 @@ const Tsharts = ({tshart}) => {
         <div class="card mb-3  rounded-3 w-75" >
 <div class="row g-0 mt-3 ms-2 mb-2">
 <div class="col-md-4">
-  <img style={{width:"150px",height:"150px"}}  src={img} class="img-fluid rounded-start" alt="..."/>
+  <img style={{width:"150px",height:"150px"}} src={img} class="img-fluid rounded-start" alt="..."/>
 </div>
 <div class="col-md-8">
   <div class="card-body">
@@ -21,8 +21,7 @@ const Tsharts = ({tshart}) => {
     <p class="card-text fw-bold">$ {price}</p>
   </div>
   <button onClick={()=>handelSingleTshart(tshart._id)}>Book Now</button>
-   
-   
+ 
 </div>
 </div>
 </div>

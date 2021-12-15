@@ -6,6 +6,8 @@ import Header from './Pages/Header/Header';
 import SingleProduct from './Pages/SingleProduct/SingleProduct';
 import Tshart from './Pages/Tshart/Tshart';
 import TshartSingle from './Pages/TshartSingle/TshartSingle';
+import Shop from './Pages/Shop/Shop';
+import SingleShops from './Pages/SingleShops/SingleShops';
 
 
 
@@ -25,8 +27,14 @@ function App() {
         <Route path="/tshart"> 
           <Tshart></Tshart>
         </Route>
+        <Route path="/shop"> 
+          <Shop></Shop>
+        </Route>
         <Route path="/singleTshart/:id"> 
           <TshartSingle></TshartSingle>
+        </Route>
+        <Route path="/singleShop/:id"> 
+          <SingleShops></SingleShops>
         </Route>
         <Route path="/singleProduct/:id">
           <SingleProduct></SingleProduct>
