@@ -30,13 +30,13 @@ function App() {
         <Route path="/shop"> 
           <Shop></Shop>
         </Route>
-        <Route path="/singleTshart/:id"> 
+        <Route path="/singleTshart/:i"> 
           <TshartSingle></TshartSingle>
         </Route>
         <Route path="/singleShop/:id"> 
           <SingleShops></SingleShops>
         </Route>
-        <Route path="/singleProduct/:id">
+        <Route path="/singleProduct/:idd">
           <SingleProduct></SingleProduct>
         </Route>
       </Switch>

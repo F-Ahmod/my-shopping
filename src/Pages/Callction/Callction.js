@@ -3,26 +3,26 @@ import './Callction.css'
 import Callctions from './../Callctions/Callctions';
 
 const Callction = () => {
-    const [callction,setCallction]=useState([])
-    useEffect(()=>{
-        fetch('http://localhost:5000/callction')
-        .then(res=>res.json())
-        .then(data=>setCallction(data))
+    const [callction, setCallction] = useState([])
+    useEffect(() => {
+        fetch('https://salty-crag-62284.herokuapp.com/')
+            .then(res => res.json())
+            .then(data => setCallction(data))
 
-    },[])
+    }, [])
     return (
         <div>
             <h2>Best Callction</h2>
 
             <div className="container callction">
-            {
-                callction.map(callction=><Callctions
-                callction={callction}>
+                {
+                    callction.map(callction => <Callctions
+                        callction={callction}>
 
-                </Callctions>)
-            }
+                    </Callctions>)
+                }
             </div>
-            
+
         </div>
     );
 };
